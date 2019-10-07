@@ -1,0 +1,13 @@
+git:
+  lfs_skip_smudge: true
+
+before_install:
+  - cat dummy_lfs_file.txt
+
+install:
+  - echo "done"
+script:
+  - echo "done"
+
+after_success:
+  - echo "done"
